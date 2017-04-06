@@ -2,14 +2,7 @@
   "name": "gangnam",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server --env.dev --progress",
-    "prod": "node_modules/.bin/webpack -p --env.production --progress"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "test.js",
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
@@ -29,5 +22,20 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
-  }
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server --env.dev --progress",
+    "prod": "node_modules/.bin/webpack -p --env.production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunz/gangnam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dunz/gangnam/issues"
+  },
+  "homepage": "https://github.com/dunz/gangnam#readme"
 }
