@@ -24,8 +24,8 @@
     "react-dom": "^15.4.2"
   },
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server --env.dev --progress",
-    "prod": "node_modules/.bin/webpack -p --env.production --progress"
+    "start": "node_modules/.bin/webpack-dev-server --env.dev --progress",
+    "build": "node_modules/.bin/webpack -p --env.prod --progress"
   },
   "repository": {
     "type": "git",
