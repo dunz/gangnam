@@ -2,3 +2,4 @@ node_modules
 *.log*
 memo
 .idea
+.DS_Store
